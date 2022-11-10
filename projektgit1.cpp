@@ -12,8 +12,7 @@ int main() {
 	cout<<endl;
 	mz=-b/a;	
 	
-	cout<<"Miejsce zerowe funkcji liniowej: "<<mz;
-	/*
+	
 	if (a!=0)
 	{
 		cout<<"Miejsce zerowe funkcji liniowej: "<<mz;
@@ -21,7 +20,6 @@ int main() {
 	else 
 		cout<<"Brak miejsc zerowych";
 	
-	*/
 	
 	return 0;
 }

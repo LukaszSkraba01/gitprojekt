@@ -4,18 +4,22 @@
 using namespace std;
 
 int main() {
-	double a, b, mz;
-	cout<<"Podaj a: ";
-	cin>>a;
-	cout<<"Podaj b: ";
-	cin>>b;
+	double A, B, C, mz;
+	cout<<"Podaj A: ";
+	cin>>A;
+	cout<<"Podaj B: ";
+	cin>>B;
+	cout<<"Podaj C: ";
+	cin>>C;
+	cout<<"Postac funkcji: "<<A<<"x+"<<B<<"y+"<<C<<"=0";
+	cout<<"\n oraz mz =C/-A";
 	cout<<endl;
-	mz=-b/a;	
+	mz=C/-A;	
 	
 	//
-	if (a!=0)
+	if (A!=0)
 	{
-		cout<<"Miejsce zerowe funkcji liniowej: "<<mz;
+		cout<<"Miejsce zerowe funkcji liniowej: x="<<mz;
 	}
 	else 
 		cout<<"Brak miejsc zerowych";
